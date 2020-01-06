@@ -2,10 +2,6 @@ const express = require('express')
 const app = express()
 const bodyParser = require('body-parser')
 const cors = require('cors')
-// // var path = require('path')
-
-// const session = require('express-session')
-// const { ExpressOIDC } = require('@okta/oidc-middleware')
 
 app.use(bodyParser())
 app.use(bodyParser.urlencoded({extended: true}))
